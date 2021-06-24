@@ -1,0 +1,6 @@
+version: "3.3"
+services: 
+    bybit_info_bot:
+        build: .
+        volumes:
+            - /path/to/folder:/bot
